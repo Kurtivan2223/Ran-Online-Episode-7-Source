@@ -1,0 +1,17 @@
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\adler32.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\adler32.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\compress.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\compress.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\crc32.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\crc32.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\deflate.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\deflate.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\gzio.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\gzio.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\infback.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\infback.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\inffast.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\inffast.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\inflate.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\inflate.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\inftrees.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\inftrees.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\ioapi.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\ioapi.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\iowin32.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\iowin32.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\mztools.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\mztools.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\trees.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\trees.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\uncompr.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\uncompr.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\unzip.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\unzip.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\zip.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\zip.obj
+D:\Ran\game-sources-vs2022\[Lib]__ZLib\Sources\zutil.c;D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\Obj\zutil.obj
