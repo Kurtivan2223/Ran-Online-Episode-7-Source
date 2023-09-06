@@ -700,6 +700,12 @@
     <ClInclude Include="Sources\InnerUI\WarningMsg.h">
       <Filter>Source Files\InnerUI\Other</Filter>
     </ClInclude>
+    <ClInclude Include="Sources\InnerUI\QBoxButtonIcon.h">
+      <Filter>Source Files\InnerUI\Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\InnerUI\BasicMiniBarGauge.h">
+      <Filter>Source Files\InnerUI\Fixed</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -1412,6 +1418,12 @@
     </ClCompile>
     <ClCompile Include="Sources\InnerUI\WarningMsg.cpp">
       <Filter>Source Files\InnerUI\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\InnerUI\QBoxButtonIcon.cpp">
+      <Filter>Source Files\InnerUI\Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\InnerUI\BasicMiniBarGauge.cpp">
+      <Filter>Source Files\InnerUI\Fixed</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -12,6 +12,9 @@
     <Filter Include="Source Files\Main">
       <UniqueIdentifier>{340891c9-ab10-4ef9-8fa2-d1d19deb6b60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Dialog">
+      <UniqueIdentifier>{fa177095-7776-4e1f-a21e-eaca10510b14}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -26,27 +29,6 @@
     <ClInclude Include="Resources\resource.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\CrowTree.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\DlgLevelEdit.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\DlgQuest.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\EtcFuncPage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\GateListPage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\ItemTreePage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\LandMarkPage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
     <ClInclude Include="Sources\LevelEditor.h">
       <Filter>Source Files\Main</Filter>
     </ClInclude>
@@ -56,63 +38,63 @@
     <ClInclude Include="Sources\LevelEditorView.h">
       <Filter>Source Files\Main</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\LevelLandGatePage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\LevelMainPage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\LevelSingleEffect.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
     <ClInclude Include="Sources\MainFrm.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\MobSchedulePage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\MobSetPage.h">
-      <Filter>Source Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\RequirePage.h">
       <Filter>Source Files\Main</Filter>
     </ClInclude>
     <ClInclude Include="Sources\SheetWithTab.h">
       <Filter>Source Files\Main</Filter>
     </ClInclude>
+    <ClInclude Include="Sources\CrowTree.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DlgLevelEdit.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DlgQuest.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EtcFuncPage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GateListPage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ItemTreePage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LandMarkPage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LevelLandGatePage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LevelMainPage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LevelSingleEffect.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MobSchedulePage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MobSetPage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RequirePage.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
     <ClInclude Include="Sources\SkillTreePage.h">
-      <Filter>Source Files\Main</Filter>
+      <Filter>Source Files\Dialog</Filter>
     </ClInclude>
     <ClInclude Include="Sources\ToolBarEx.h">
-      <Filter>Source Files\Main</Filter>
+      <Filter>Source Files\Dialog</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\CrowTree.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\DlgLevelEdit.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\DlgQuest.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\EtcFuncPage.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
     <ClCompile Include="Sources\ExceptionAttacher.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\GateListPage.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ItemTreePage.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\LandMarkPage.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
     <ClCompile Include="Sources\LevelEditor.cpp">
@@ -127,35 +109,56 @@
     <ClCompile Include="Sources\LevelEditorViewD3d.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\LevelLandGatePage.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\LevelMainPage.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\LevelSingleEffect.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
     <ClCompile Include="Sources\MainFrm.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\MobSchedulePage.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\MobSetPage.cpp">
-      <Filter>Source Files\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\RequirePage.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
     <ClCompile Include="Sources\SheetWithTab.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\CrowTree.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DlgLevelEdit.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DlgQuest.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\EtcFuncPage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GateListPage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ItemTreePage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LandMarkPage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LevelLandGatePage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LevelMainPage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LevelSingleEffect.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MobSchedulePage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MobSetPage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RequirePage.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
     <ClCompile Include="Sources\SkillTreePage.cpp">
-      <Filter>Source Files\Main</Filter>
+      <Filter>Source Files\Dialog</Filter>
     </ClCompile>
     <ClCompile Include="Sources\ToolBarEx.cpp">
-      <Filter>Source Files\Main</Filter>
+      <Filter>Source Files\Dialog</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +179,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\[Tool]__LevelEditor.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\idr_mani.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\rt_manif.bin">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

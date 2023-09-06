@@ -1,1 +1,18 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(439,5): error MSB8020: The build tools for v143 (Platform Toolset = 'v143') cannot be found. To build using the v143 build tools, please install v143 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzio.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  ioapi.c
+  iowin32.c
+  mztools.c
+  trees.c
+  uncompr.c
+  unzip.c
+  zip.c
+  zutil.c
+  [Lib]__ZLib.vcxproj -> D:\Ran\game-sources-vs2022\[Lib]__ZLib\Bin\ZLib.lib

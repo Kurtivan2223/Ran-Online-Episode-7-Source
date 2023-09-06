@@ -61,6 +61,12 @@
     <Image Include="Resources\[Client]__Game.ico">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="Game.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Game.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resources\[Client]__Game.rc">

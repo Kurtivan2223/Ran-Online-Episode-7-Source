@@ -25,14 +25,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>false</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RZ|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>false</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
@@ -181,6 +181,7 @@
     <ClInclude Include="Sources\InnerUI\BasicHWOptionWindow.h" />
     <ClInclude Include="Sources\InnerUI\BasicInfoView.h" />
     <ClInclude Include="Sources\InnerUI\BasicLevelDisplay.h" />
+    <ClInclude Include="Sources\InnerUI\BasicMiniBarGauge.h" />
     <ClInclude Include="Sources\InnerUI\BasicPotionTray.h" />
     <ClInclude Include="Sources\InnerUI\BasicQuickPotionSlot.h" />
     <ClInclude Include="Sources\InnerUI\BasicQuickPotionSlotEx.h" />
@@ -295,6 +296,7 @@
     <ClInclude Include="Sources\InnerUI\PrivateMarketWindow.h" />
     <ClInclude Include="Sources\InnerUI\PtoPWindow.h" />
     <ClInclude Include="Sources\InnerUI\QBoxButton.h" />
+    <ClInclude Include="Sources\InnerUI\QBoxButtonIcon.h" />
     <ClInclude Include="Sources\InnerUI\QuestAlarm.h" />
     <ClInclude Include="Sources\InnerUI\QuestGiftView.h" />
     <ClInclude Include="Sources\InnerUI\QuestHelper.h" />
@@ -411,6 +413,7 @@
     <ClCompile Include="Sources\InnerUI\BasicHWOptionWindow.cpp" />
     <ClCompile Include="Sources\InnerUI\BasicInfoView.cpp" />
     <ClCompile Include="Sources\InnerUI\BasicLevelDisplay.cpp" />
+    <ClCompile Include="Sources\InnerUI\BasicMiniBarGauge.cpp" />
     <ClCompile Include="Sources\InnerUI\BasicPotionTray.cpp" />
     <ClCompile Include="Sources\InnerUI\BasicQuickPotionSlot.cpp" />
     <ClCompile Include="Sources\InnerUI\BasicQuickPotionSlotEx.cpp" />
@@ -533,6 +536,7 @@
     <ClCompile Include="Sources\InnerUI\PrivateMarketWindow.cpp" />
     <ClCompile Include="Sources\InnerUI\PtoPWindow.cpp" />
     <ClCompile Include="Sources\InnerUI\QBoxButton.cpp" />
+    <ClCompile Include="Sources\InnerUI\QBoxButtonIcon.cpp" />
     <ClCompile Include="Sources\InnerUI\QuestAlarm.cpp" />
     <ClCompile Include="Sources\InnerUI\QuestGiftView.cpp" />
     <ClCompile Include="Sources\InnerUI\QuestHelper.cpp" />
